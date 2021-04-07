@@ -1,7 +1,6 @@
 # Web intro
 
 - Display `Hello World` in your browser
-- Refactor DAO and Service layers using GenericDao and GenericService (if you haven't done it yet)
 - configure web.xml
 - add new dependencies `servlet-api` and `maven-war-plugin` in `pom.xml` (remember about `<packaging>war</packaging>`)
 - create IndexController
