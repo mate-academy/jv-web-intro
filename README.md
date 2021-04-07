@@ -6,7 +6,7 @@
 - create IndexController
 - create index.jsp
 
-__Before submitting solution make sure you checked it first with__ [checklist](https://mate-academy.github.io/jv-program-fulltime/02_jdbc/checklist/07_servlets_intro_checklist.html)
+__Before submitting solution make sure you checked it first with__ [checklist](https://mate-academy.github.io/jv-program-fulltime/03_web/checklist/01_servlets_intro_checklist.html)
 
 As example of GenericDao you can use this:
 ```java
