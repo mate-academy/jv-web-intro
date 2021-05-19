@@ -3,7 +3,7 @@
 <head>
     <title>index page</title>
 </head>
-<body>
-<h1>Hello mates!</h1>
-</body>
+    <body>
+        <h1>Hello mates!</h1>
+    </body>
 </html>
