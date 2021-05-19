@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 
 public class IndexController extends HttpServlet {
     private static final String INDEX_ADDRESS = "/WEB-INF/views/index.jsp";
+
     @Override
     public void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
