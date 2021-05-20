@@ -1,4 +1,4 @@
-package mate;
+package mate.webapp;
 
 public class App {
     public static void main(String[] args) {
