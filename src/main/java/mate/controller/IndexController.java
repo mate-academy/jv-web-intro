@@ -8,6 +8,8 @@ import javax.servlet.http.HttpServletResponse;
 
 public class IndexController extends HttpServlet {
     @Override
-    public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("/WEB-INF/views/index.jsp").forward(req, resp);    }
+    public void doGet(HttpServletRequest req, HttpServletResponse resp)
+            throws ServletException, IOException {
+        req.getRequestDispatcher("/WEB-INF/views/index.jsp").forward(req, resp);
+    }
 }
