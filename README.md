@@ -1,6 +1,6 @@
 # Web intro
-!Note: let's install Tomcat 9.0.50. If you decide to install version 10 and above, 
-you should use [a different dependency for servlets](https://mvnrepository.com/artifact/jakarta.servlet/jakarta.servlet-api/5.0.0) as well.
+
+!IMPORTANT: for this and further tasks, let's install Tomcat 9.0.50.
 
 - display `Hello World` in your browser
 - configure `web.xml`
