@@ -56,8 +56,9 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-war-plugin</artifactId>
+                    <version>3.3.1</version>
                     <configuration>
-                        <webXml>src/main/java/mate/webapp/web.xml</webXml>
+                        <webXml>src/main/webapp/web.xml</webXml>
                     </configuration>
                 </plugin>
                 <plugin>
