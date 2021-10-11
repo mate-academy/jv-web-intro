@@ -8,7 +8,7 @@
         <servlet-class>mate.controller.IndexController</servlet-class>
     </servlet>
     <servlet-mapping>
-    <servlet-name>indexController</servlet-name>
-    <url-pattern>/index</url-pattern>
+        <servlet-name>indexController</servlet-name>
+        <url-pattern>/index</url-pattern>
     </servlet-mapping>
 </web-app>
