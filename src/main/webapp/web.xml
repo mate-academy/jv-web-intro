@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-name>IndexController</servlet-name>
+        <servlet-class>mate.controller.IndexController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IndexController</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+</web-app>
