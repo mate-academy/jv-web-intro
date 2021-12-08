@@ -4,7 +4,7 @@
     <title>index page</title>
 </head>
 <body>
-<h1>Hello World</h1><br>
+<h2>Hello World</h2><br>
 
 </body>
 </html>
