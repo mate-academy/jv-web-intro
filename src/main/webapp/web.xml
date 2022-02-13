@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
     <servlet>
-        <servlet-name>helloController</servlet-name>
-        <servlet-class>mate.controller.HelloController</servlet-class>
+        <servlet-name>indexController</servlet-name>
+        <servlet-class>mate.controller.IndexController</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>helloController</servlet-name>
-        <url-pattern>/hello</url-pattern>
+        <servlet-name>indexController</servlet-name>
+        <url-pattern>/index</url-pattern>
     </servlet-mapping>
 </web-app>
