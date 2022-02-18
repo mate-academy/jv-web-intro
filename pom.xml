@@ -38,15 +38,9 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
-<!--                <version>3.3.2</version>-->
+                <version>3.3.2</version>
                 <configuration>
                     <webXml>src/main/webapp/web.xml</webXml>
-<!--                    <webResources>-->
-<!--                        <resource>-->
-<!--                            &lt;!&ndash; this is relative to the pom.xml directory &ndash;&gt;-->
-<!--                            <directory>src/main/webapp/web.xml</directory>-->
-<!--                        </resource>-->
-<!--                    </webResources>-->
                 </configuration>
             </plugin>
             <plugin>
