@@ -10,6 +10,6 @@ public class IndexController extends HttpServlet {
     @Override
     public void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
-        req.getRequestDispatcher("/web-inf/views/index.jsp").forward(req,resp);
+        req.getRequestDispatcher("/web-inf/views/index.1").forward(req,resp);
     }
 }
