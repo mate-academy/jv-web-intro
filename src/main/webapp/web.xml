@@ -1,0 +1,11 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" version="2.4">
+
+    <servlet>
+        <servlet-name>indexController</servlet-name>
+        <servlet-class>mate.controller.IndexController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>indexController</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+</web-app>
