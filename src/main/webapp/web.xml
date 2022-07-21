@@ -5,11 +5,11 @@
          version="4.0">
 
     <servlet>
-        <servlet-name>indexController</servlet-name>
-        <servlet-class>mate.Controller.indexController</servlet-class>
+        <servlet-name>IndexController</servlet-name>
+        <servlet-class>mate.controller.IndexController</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>indexController</servlet-name>
+        <servlet-name>IndexController</servlet-name>
         <url-pattern>/index</url-pattern>
     </servlet-mapping>
 </web-app>
