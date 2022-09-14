@@ -1,0 +1,14 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+         version="2.1">
+
+         <servlet>
+             <servlet-name>indexController</servlet-name>
+             <servlet-class>mate.controller.IndexController</servlet-class>
+         </servlet>
+         <servlet-mapping>
+             <servlet-name>indexController</servlet-name>
+             <url-pattern>/index</url-pattern>
+         </servlet-mapping>
+</web-app>
