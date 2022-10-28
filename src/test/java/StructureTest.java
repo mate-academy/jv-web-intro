@@ -1,6 +1,7 @@
-import java.io.File;
 import org.junit.Assert;
 import org.junit.Test;
+
+import java.io.File;
 
 public class StructureTest {
   private static final String SLASH = File.separator;
