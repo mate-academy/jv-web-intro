@@ -7,6 +7,7 @@
     <groupId>mate-academy</groupId>
     <artifactId>web-intro</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
 
     <properties>
         <jdk.version>11</jdk.version>
@@ -24,6 +25,12 @@
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
@@ -49,7 +56,13 @@
                     <linkXRef>false</linkXRef>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.2.3</version>
+            </plugin>
         </plugins>
+
         <pluginManagement>
             <plugins>
                 <plugin>
@@ -57,12 +70,13 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.8.0</version>
                     <configuration>
-                        <source>${jdk.version}</source>
-                        <target>${jdk.version}</target>
-                        <encoding>${project.build.sourceEncoding}</encoding>
+                        <source>11</source>
+                        <target>11</target>
+                        <encoding>src/main/webapp/web.xml</encoding>
                     </configuration>
                 </plugin>
             </plugins>
         </pluginManagement>
     </build>
+
 </project>
