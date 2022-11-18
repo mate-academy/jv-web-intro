@@ -32,11 +32,6 @@
             <version>4.0.1</version>
             <scope>provided</scope>
         </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-war-plugin</artifactId>
-            <version>3.3.2</version>
-        </dependency>
     </dependencies>
 
     <build>
@@ -70,6 +65,7 @@
                     <configuration>
                         <webXml>src/main/webapp/web.xml</webXml>
                     </configuration>
+                    <version>3.3.2</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
