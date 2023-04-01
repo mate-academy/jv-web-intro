@@ -9,6 +9,6 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>indexController</servlet-name>
-        <url-pattern>/helloWorld</url-pattern>
+        <url-pattern>/index</url-pattern>
     </servlet-mapping>
 </web-app>
