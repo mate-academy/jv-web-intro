@@ -1,4 +1,6 @@
 package mate.controller;
 
-public class IndexController {
+import javax.servlet.http.HttpServlet;
+
+public class IndexController extends HttpServlet {
 }
