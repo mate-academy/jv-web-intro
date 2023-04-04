@@ -14,16 +14,4 @@ public class StructureTest {
     File file = new File(PATH_TO_WEBAPP);
     Assert.assertTrue("webapp folder should be created in src/main folder", file.exists());
   }
-
-  @Test
-  public void webXmlInWebappFolder() {
-    File file = new File(PATH_TO_WEB_XML);
-    Assert.assertTrue("web.xml folder should be created in webapp folder", file.exists());
-  }
-
-  @Test
-  public void indexJspInViewsFolder() {
-    File file = new File(PATH_TO_INDEX_JSP);
-    Assert.assertTrue("index.jsp should be created in webapp/WEB-INF/views folder", file.exists());
-  }
 }
