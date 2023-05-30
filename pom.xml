@@ -20,23 +20,20 @@
     </properties>
 
     <dependencies>
-               <dependency>
-                  <groupId>javax.servlet</groupId>
-                  <artifactId>javax.servlet-api</artifactId>
-                  <version>4.0.1</version>
-                  <scope>provided</scope>
-              </dependency>
-   <!-- https://mvnrepository.com/artifact/jakarta.servlet/jakarta.servlet-api
-
-
-              <dependency>
-                  <groupId>jakarta.servlet</groupId>
-                  <artifactId>jakarta.servlet-api</artifactId>
-                  <version>6.0.0</version>
-                  <scope>provided</scope>
-              </dependency>
-        -->
-
+        <!-- https://mvnrepository.com/artifact/jakarta.servlet/jakarta.servlet-api
+             <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>4.0.1</version>
+                <scope>provided</scope>
+            </dependency>
+-->
+        <dependency>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>6.0.0</version>
+            <scope>provided</scope>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -51,7 +48,9 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.2.3</version>
-                <configuration><webXml>src/main/webapp/web.xml</webXml></configuration>
+                <configuration>
+                    <webXml>src/main/webapp/web.xml</webXml>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
