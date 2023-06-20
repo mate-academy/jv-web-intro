@@ -1,9 +1,9 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
     <title>Index Page</title>
 </head>
 <body>
-    <h1>Hello world!!!</h1>
+<h1>Hello world!!!</h1>
 </body>
 </html>
