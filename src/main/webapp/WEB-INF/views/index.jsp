@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <title>My index page</title>
+    <title>index page</title>
 </head>
 <body>
 <h1>Hello world</h1>
