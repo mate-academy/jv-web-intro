@@ -1,3 +1,9 @@
 .idea/*
 *.iml
 target/*
+/target/
+.checkstyle
+.classpath
+.project
+.settings/
+bin/
