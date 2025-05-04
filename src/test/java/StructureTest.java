@@ -7,7 +7,7 @@ public class StructureTest {
   private static final String PATH_TO_WEBAPP = "src" + SLASH + "main" + SLASH +"webapp";
   private static final String PATH_TO_WEB_XML = PATH_TO_WEBAPP + SLASH + "web.xml";
   private static final String PATH_TO_INDEX_JSP = PATH_TO_WEBAPP + SLASH
-      + "WEB-INF" + SLASH + "views" + SLASH + "index.jsp";
+          + "WEB-INF" + SLASH + "views" + SLASH + "index.jsp";
 
   @Test
   public void webappInMainFolder() {
